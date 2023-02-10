@@ -7,7 +7,7 @@ class Hero {
     this.balance = balance
   }
 
-  //Método de comportamento que adiciona “coisas” ao criar o novo objeto com a palavra new
+  //Behavior method that adds or changes infos when creating the new object.
 
   deposit(value) {
     this.balance += value
@@ -28,7 +28,7 @@ const wolverine = new Hero(
 
 console.table(wolverine)
 
-// Ex 2: herdando métodos e propriedades
+// Inheriting methods and properties.
 
 class HeroPoup extends Hero {
   constructor(name, age, cpf, email, balance, balancePoup) {

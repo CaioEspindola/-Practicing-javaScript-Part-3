@@ -1,0 +1,21 @@
+{
+  "name": "praticing-js-objects",
+  "version": "1.0.0",
+  "description": "Somes sketches and studies to practice more javaScript and git/github.",
+  "type": "module",
+  "main": "access-list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioEspindola/-Practicing-javaScript-Part-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioEspindola/-Practicing-javaScript-Part-3/issues"
+  },
+  "homepage": "https://github.com/CaioEspindola/-Practicing-javaScript-Part-3#readme"
+}

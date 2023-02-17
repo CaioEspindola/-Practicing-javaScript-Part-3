@@ -1,6 +1,6 @@
-import Hero from './oop-module-export-object.js'
+import Hero from './oop-private-property-method.js'
 
-class AdminHero extends Hero {
+export default class AdminHero extends Hero {
   constructor(name, email, age, role = 'admin', active = true) {
     //super classe para trazer todas as propriedades que queremos aproveitar do prototipo
     super(name, email, age, role, active)
@@ -12,10 +12,12 @@ class AdminHero extends Hero {
   }
 }
 
-const newAdmin = new AdminHero('Charles Xavier', 'charlesx@gmail.com', 80)
+/* const newAdmin = new AdminHero('Charles Xavier', 'charlesx@gmail.com', 80) 
 
 console.log(newAdmin)
 console.log(newAdmin.printInfos()) //Method exported
 
 // console.log - create a new method:
 console.log(newAdmin.createTraining('Self-Defense', 20))
+ 
+ */

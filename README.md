@@ -1,4 +1,4 @@
-# -Practicing-javaScript-Part-3
+# Practicing-javaScript-Part-3
 
 Somes sketches and studies to practice more javaScript and git/github.
 

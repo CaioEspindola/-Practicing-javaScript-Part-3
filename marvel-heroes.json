@@ -1,0 +1,11 @@
+{
+  "name": "Tempest",
+  "email": "tempest@gmail.com",
+  "phone": ["55477899635", "558714687581"],
+  "address": {
+    "street": "Nereu Ramos",
+    "number": "271",
+    "apartment": "true",
+    "country": "Brazil"    
+  }
+}
